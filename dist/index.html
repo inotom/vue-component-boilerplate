@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Example</title>
+</head>
+<body>
+<div id="app">
+  <hello-vue></hello-vue>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+<script src="hello-vue.min.js"></script>
+<script>
+Vue.use(HelloVue);
+new Vue({
+  el: '#app'
+});
+</script>
+</body>
+</html>
