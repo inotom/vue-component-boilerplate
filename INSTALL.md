@@ -16,6 +16,7 @@ prettier \
 rimraf \
 sass-loader \
 style-loader \
+uglifyjs-webpack-plugin \
 vue \
 vue-loader \
 vue-template-compiler \
