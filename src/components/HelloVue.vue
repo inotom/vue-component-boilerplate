@@ -8,9 +8,9 @@
 export default {
   data() {
     return {
-      title: 'Hello, Vue.js!'
+      title: 'Hello, Vue.js!',
     };
-  }
+  },
 };
 </script>
 
