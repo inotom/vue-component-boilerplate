@@ -1,7 +1,7 @@
 /** @prettier */
 
 // Import vue component
-import HelloVue from '@components/HelloVue.vue';
+import HelloWorld from '@components/HelloWorld.vue';
 
 // Declare install function executed by Vue.use()
 export function install(Vue) {
@@ -9,7 +9,7 @@ export function install(Vue) {
     return;
   }
   install.installed = true;
-  Vue.component('hello-vue', HelloVue);
+  Vue.component('hello-world', HelloWorld);
 }
 
 // Create module definition for Vue.use()
@@ -29,4 +29,4 @@ if (GlobalVue) {
 }
 
 // To allow use as module (npm/webpack/etc.) export component
-export default HelloVue;
+export default HelloWorld;

@@ -1,5 +1,5 @@
 <template>
-  <div class="hello-vue">
+  <div class="hello-world">
     {{ title }}
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.hello-vue {
+.hello-world {
   color: #f00;
 }
 </style>
