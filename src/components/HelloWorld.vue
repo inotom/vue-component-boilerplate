@@ -5,15 +5,13 @@
 </template>
 
 <script>
-import Vue from 'vue';
-
-export default Vue.extend({
+export default {
   data() {
     return {
       title: 'Hello, Vue.js!',
     };
   },
-});
+};
 </script>
 
 <style lang="scss" scoped>
