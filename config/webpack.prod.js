@@ -35,8 +35,7 @@ const _config = merge(common, {
           {
             loader: 'sass-loader',
             options: {
-              data: '$env: "production";',
-              outputStyle: 'compressed',
+              prependData: '$env: "production";',
               sourceMap: false,
             },
           },
@@ -56,8 +55,9 @@ const _config = merge(common, {
       new TerserPlugin({
         sourceMap: true,
         parallel: true,
+        extractComments: false,
         terserOptions: {
-          ecma: 8,
+          ecma: 5,
         },
       }),
     ],
