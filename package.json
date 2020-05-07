@@ -1,6 +1,6 @@
 {
   "name": "vue-component-boilerplate",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "",
   "main": "dist/vue-hello-world.umd.js",
   "cdn": "dist/vue-hello-world.min.js",
